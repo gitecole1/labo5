@@ -19,14 +19,14 @@ body{
     "nav     nav     nav      nav"
     "aside   main     main    main"
     "footer  footer  footer  footer";
-    grid-gap: 2px;
+    grid-gap: 1px;
 }
 
 main {
     grid-area: main;
     background-color:aqua;
     padding: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 130px;
 }
 
 header {
