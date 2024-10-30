@@ -1,0 +1,22 @@
+.puzzle{
+    display :grid;
+   
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+    "five   eight  six  "
+    "nine   three   one "
+    "two    four    seven "
+    
+}
+
+
+#piece1{grid-area: one;}
+#piece2{grid-area: two;}
+#piece3{grid-area: three;}
+#piece4{grid-area: four;}
+#piece5{grid-area: five;}
+#piece6{grid-area: six;}
+#piece7{grid-area: seven;}
+#piece8{grid-area: eight;}
+#piece9{grid-area: nine;}
+
