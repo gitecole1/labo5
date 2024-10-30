@@ -1,0 +1,15 @@
+
+
+
+
+
+
+#conteneur {
+    
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "1  2   3  "
+    "6  5   4  "
+    "7  8   9  ";
+ 
