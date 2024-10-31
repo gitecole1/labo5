@@ -8,7 +8,7 @@ body{
     padding-top: 80px;
 }
 
-#conteneur {
+#conteneur1 {
     
     display :grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -16,50 +16,19 @@ body{
     "1  2   3  "
     "6  5   4  "
     "7  8   9  ";
-    border: 1px solid black;
+   
+    margin-bottom: 40px;
 
 }
-#conteneur div:nth-child(odd) {
+#conteneur1 div:nth-child(odd) {
            background-color:dodgerblue;
-           padding: 10px;
+           padding: 15px;
            text-align: center;
            border: 1px solid black;
 
            
 }
-#conteneur div:nth-child(even){
-    background-color:aqua;
-    padding: 15px;
-    text-align: center;
-    border: 1px solid black;
-    
-}
-
-
-
-
-
-#conteneur1 {
-    
-    display :grid;
-    grid-template-columns:repeat(1/6, 2/6,3/6);
-    grid-template-rows:1fr 1fr 1fr;
-    grid-template-areas:
-    "1  2   3  "
-    "6  5   4  "
-    "7  8   9  ";
-    border: 1px solid black;
-
-}
-#conteneur div:nth-child(odd) {
-           background-color:blue;
-           padding: 10px;
-           text-align: center;
-           border: 1px solid black;
-
-           
-}
-#conteneur div:nth-child(even){
+#conteneur1 div:nth-child(even){
     background-color:aqua;
     padding: 15px;
     text-align: center;
@@ -74,29 +43,66 @@ body{
 #conteneur2 {
     
     display :grid;
-    grid-template-columns:repeat(1/6, 2/6,3/6);
-    grid-template-rows: repeat(2/4, 1/4,1/4);
+    grid-template-columns:1fr 2fr 3fr;
+    grid-template-rows:1fr 1fr 1fr;
     grid-template-areas:
     "1  2   3  "
     "6  5   4  "
     "7  8   9  ";
-    border: 1px solid black;
+    
+   
 
 }
-#conteneur div:nth-child(odd) {
-           background-color:brown;
-           padding: 10px;
+#conteneur2 div:nth-child(odd) {
+           background-color:dodgerblue;
+           padding: 15px;
            text-align: center;
            border: 1px solid black;
 
            
 }
-#conteneur div:nth-child(even){
+#conteneur2 div:nth-child(even){
     background-color:aqua;
     padding: 15px;
     text-align: center;
     border: 1px solid black;
+
+   
     
+}
+
+
+
+#conteneur3 {
+    
+    display :grid;
+    grid-template-columns:1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas:
+    "1  2   3  "
+    "6  5   4  "
+    "7  8   9  ";
+    grid-gap: 2px;
+    margin-top: 40px;
+
+}
+#conteneur3 div:nth-child(odd) {
+           background-color:dodgerblue;
+           padding: 15px;
+           text-align: center;
+           border: 1px solid black;
+           border-radius: 1px;
+           
+
+           
+}
+#conteneur3 div:nth-child(even){
+    background-color:aqua;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+   
 }
 
 

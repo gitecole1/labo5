@@ -7,22 +7,26 @@
 .puzzle{
     display :grid;
    
-    grid-template-columns:repeat(4, 1fr);
-    
+    grid-template-columns:repeat(4 ,1fr);
+   
     grid-template-areas:
     "zeroone    zerotwo "  
-    "zerothree  zerofour "
-    "zerofive    zerosix "
-    "zerosevsn  zeroeight"
-    "zeronine    zeroten "
+    "zerofour   zerofive"
+    "zerosix    zeroseven"
+    "zerothree  zeronine "
+    "zeroeight   zeroten "
     
 }
 
 #piece01{grid-area: zeroone;}
 #piece02{grid-area: zerotwo;}
 #piece03{grid-area: zerothree;}
-#piece04{grid-area: zerofour;}
-#piece05{grid-area: zerofive;}
+#piece04{grid-area: zerofour;
+    
+}
+#piece05{grid-area: zerofive;
+
+}
 #piece06{grid-area: zerosix;}
 #piece07{grid-area: zeroseven;}
 #piece08{grid-area: zeroeight;}
