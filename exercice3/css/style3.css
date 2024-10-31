@@ -24,7 +24,7 @@ body{
 
 main {
     grid-area: main;
-    background-color:aqua;
+    background-color:cyan;
     padding: 20px;
     padding-bottom: 160px;
     padding-right: 140px;
@@ -32,19 +32,19 @@ main {
 
 header {
     grid-area: header;
-    background-color:aqua;
+    background-color:cyan;
     padding: 20px;
 }
 
 nav{
     grid-area: nav;
-    background-color:aqua;
+    background-color:cyan;
     padding: 20px;
 }
 
 aside{
     grid-area: aside;
-    background-color:aqua;
+    background-color:cyan;
     padding: 20px;
    
   
@@ -53,6 +53,6 @@ aside{
  
 footer{
     grid-area: footer;
-    background-color: aqua;
+    background-color:cyan;
     padding: 20px;
 }
