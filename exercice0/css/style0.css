@@ -16,11 +16,11 @@ body{
     "1  2   3  "
     "6  5   4  "
     "7  8   9  ";
- 
+    border: 1px solid black;
 
 }
 #conteneur div:nth-child(odd) {
-           background-color:red;
+           background-color:dodgerblue;
            padding: 10px;
            text-align: center;
            border: 1px solid black;
@@ -28,15 +28,76 @@ body{
            
 }
 #conteneur div:nth-child(even){
-    background-color: yellowgreen;
+    background-color:aqua;
     padding: 15px;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
     
 }
 
 
 
+
+
+#conteneur1 {
+    
+    display :grid;
+    grid-template-columns:repeat(1/6, 2/6,3/6);
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas:
+    "1  2   3  "
+    "6  5   4  "
+    "7  8   9  ";
+    border: 1px solid black;
+
+}
+#conteneur div:nth-child(odd) {
+           background-color:blue;
+           padding: 10px;
+           text-align: center;
+           border: 1px solid black;
+
+           
+}
+#conteneur div:nth-child(even){
+    background-color:aqua;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+#conteneur2 {
+    
+    display :grid;
+    grid-template-columns:repeat(1/6, 2/6,3/6);
+    grid-template-rows: repeat(2/4, 1/4,1/4);
+    grid-template-areas:
+    "1  2   3  "
+    "6  5   4  "
+    "7  8   9  ";
+    border: 1px solid black;
+
+}
+#conteneur div:nth-child(odd) {
+           background-color:brown;
+           padding: 10px;
+           text-align: center;
+           border: 1px solid black;
+
+           
+}
+#conteneur div:nth-child(even){
+    background-color:aqua;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
 
 
 
