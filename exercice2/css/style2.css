@@ -1,16 +1,5 @@
 
 
-body {
-    background-color: black;
-    color: grey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
 
 
 
@@ -18,26 +7,22 @@ img {
 .puzzle{
     display :grid;
    
-    grid-template-columns:repeat(4 ,1fr);
+    grid-template-columns:repeat(3 ,500px);
    
     grid-template-areas:
     "zeroone    zerotwo "  
-    "zerofour   zerofive"
-    "zerosix    zeroseven"
-    "zerothree  zeronine "
-    "zeroeight   zeroten "
+    "zerofour   zerofive "
+    "zerosix    zeroseven "
+    "zeronine   zeroten "
+    "zerothree  zeroeight  "
     
 }
 
 #piece01{grid-area: zeroone;}
 #piece02{grid-area: zerotwo;}
 #piece03{grid-area: zerothree;}
-#piece04{grid-area: zerofour;
-    
-}
-#piece05{grid-area: zerofive;
-
-}
+#piece04{grid-area: zerofour;}
+#piece05{grid-area: zerofive;}
 #piece06{grid-area: zerosix;}
 #piece07{grid-area: zeroseven;}
 #piece08{grid-area: zeroeight;}
